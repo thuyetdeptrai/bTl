@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: bisque;
+    color: #fff;
+    padding: 10px 0;
+}
+ul li{
+    list-style: none;
+}
+.thanhtimkiem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.timkiem input {
+    padding: 10px;
+    width: 200px;
+}
+
+.timkiem button {
+    padding: 5px 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.giohang img {
+    width: 30px;
+    font-size: 24px;
+    color: #000;
+}
+.taikhoan, .lienhe {
+    margin-left: 20px;
+}
+
+.taikhoan a, .lienhe a {
+    color: black;
+    text-decoration: none;
+}
+
+.taikhoan a:hover, .lienhe a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.banner {
+    background-image: url('./bane.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: ;
+    text-align: center;
+}
+
+.banner .container {
+    max-width: 120%;
+    padding: 0 20px;
+}
+
+.banner .btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.banner .btn:hover {
+    background-color: #e65c00;
+}
+.hangsanpham {
+    text-align: center;
+    border-radius: 5px;
+    display: flex; /* Sử dụng Flexbox để các sản phẩm nằm cạnh nhau */
+    justify-content: space-between; /* Canh chỉnh các sản phẩm theo chiều ngang */
+    margin-bottom: 20px; /* Khoảng cách giữa các hàng sản phẩm */
+  }
+  .sanpham {
+    width: calc(33.33% - 10px); /* Đặt chiều rộng cho mỗi sản phẩm (33.33% để có 3 sản phẩm trên mỗi hàng) */
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 25px;
+  }
+  .dat-hang {
+    background-color: #e75411;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+  }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer, .thumuc {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
